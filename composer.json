@@ -1,5 +1,5 @@
 {
-  "name": "reinvanoyen/oak-minify-middleware",
+  "name": "reinvanoyen/middlewares-minifier",
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
