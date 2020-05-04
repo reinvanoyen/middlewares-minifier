@@ -11,7 +11,7 @@ composer require reinvanoyen/middlewares-minifier
 This package provides a Service Provider specifically for the Oak framework. This does NOT mean you can't use it 
 with any other framework. As long as the framework respects PSR-15, this package can be used.
 
-1) Register the Service provider
+#### 1) Register the Service provider
 
 ```php
 <?php
@@ -20,7 +20,7 @@ $app->register([
     \ReinVanOyen\Middlewares\HtmlMinifier\HtmlMinifierServiceProvider::class,
 ```
 
-2) Register the middleware
+#### 2) Register the middleware
 
 ```php
 <?php
@@ -30,7 +30,7 @@ $router->middleware('default', [
 ]);
 ```
 
-3) Bind the middleware group to a route
+#### 3) Bind the middleware group to a route
 
 ```php
 <?php
