@@ -18,6 +18,7 @@ with any other framework. As long as the framework respects PSR-15, this package
 
 $app->register([
     \ReinVanOyen\Middlewares\HtmlMinifier\HtmlMinifierServiceProvider::class,
+]);
 ```
 
 #### 2) Register the middleware
