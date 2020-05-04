@@ -1,0 +1,12 @@
+{
+  "name": "reinvanoyen/oak-minify-middleware",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "ReinVanOyen\\Middlewares\\HtmlMinifier\\": "src/"
+    }
+  },
+  "require": {
+    "wyrihaximus/html-compress": "1.4.x-dev"
+  }
+}
